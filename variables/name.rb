@@ -1,4 +1,7 @@
-puts "What is your name?"
-name = gets.chomp
+puts "What is your first name?"
+fname = gets.chomp
 
-10.times { puts name }
+puts "What is your last name?"
+lname = gets.chomp
+
+puts fname + " " + lname
